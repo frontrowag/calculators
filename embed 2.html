@@ -59,6 +59,7 @@ input {
 .header h1 {
  text-transform: uppercase;
  margin-bottom: 30px;
+ text-align: center;
 }
 
 #type {
@@ -511,46 +512,46 @@ td > table {
                 <tr class='main-table-row input-row'>
                     <td class='ec_target bold'>EC Targets</td>
                     
-                    <td class='input-1 results dotted'>
-                        <input type="number" class='input veg1' placeholder='0'>
+                    <td class='input-1 results inputs dotted'>
+                        <input type="number" class='input veg1' placeholder='0' min='0'>
                     </td>
 
-                    <td class='input-2 results dotted'>
-                        <input type="number" class='input veg2' placeholder='0'>
+                    <td class='input-2 results inputs dotted'>
+                        <input type="number" class='input veg2' placeholder='0' min='0'>
                     </td>
 
-                    <td class='input-3 results'>
-                        <input type="number" class='input veg3' placeholder='0'>
+                    <td class='input-3 results'inputs >
+                        <input type="number" class='input veg3' placeholder='0' min='0'>
                     </td>
 
-                    <td class='input-4 results dotted'>
-                        <input type="number" class='input flow1' placeholder='0'>
+                    <td class='input-4 results inputs dotted'>
+                        <input type="number" class='input flow1' placeholder='0' min='0'>
                     </td>
 
-                    <td class='input-5 results dotted'>
-                        <input type="number" class='input flow2' placeholder='0'>
+                    <td class='input-5 results inputs dotted'>
+                        <input type="number" class='input flow2' placeholder='0' min='0'>
                     </td>
-                    <td class='input-6 results dotted'>
-                        <input type="number" class='input flow3' placeholder='0'>
+                    <td class='input-6 results inputs dotted'>
+                        <input type="number" class='input flow3' placeholder='0' min='0'>
                     </td>
     
-                    <td class='input-7 results'>
-                        <input type="number" class='input flow4' placeholder='0'>
+                    <td class='input-7 results'inputs >
+                        <input type="number" class='input flow4' placeholder='0' min='0'>
                     </td>
 
                     <td class='grayed-out'></td>
     
                 
-                    <td class='input-8 results dotted'>
-                        <input type="number" class='input flow5' placeholder='0'>
+                    <td class='input-8 results inputs dotted'>
+                        <input type="number" class='input flow5' placeholder='0' min='0'>
                     </td>
 
-                    <td class='input-9 results dotted'>
-                        <input type="number" class='input flow6' placeholder='0'>
+                    <td class='input-9 results inputs dotted'>
+                        <input type="number" class='input flow6' placeholder='0' min='0'>
                     </td>
 
-                    <td class='input-10 results'>
-                        <input type="number" class='input flow7' placeholder='0'>
+                    <td class='input-10 results inputs'>
+                        <input type="number" class='input flow7' placeholder='0' min='0'>
                     </td>
 
                     <td class='grayed-out'></td>
@@ -570,18 +571,18 @@ td > table {
         <tr class='main-table-row main-table-row-header'>
             <td class='product bold'>Product</td>
             <td class='units-column bold'>Units</td>
-            <td class='week1'><span class='bold-digit'>1</span><br><span class='small bold'>Week</span></td>
-            <td class='week2'><span class='bold-digit'>2</span><br><span class='small bold'>Week</span></td>
-            <td class='week3'><span class='bold-digit'>3+</span><br><span class='small bold'>Week</span></td>
-            <td class='week4'><span class='bold-digit'>1</span><br><span class='small bold'>Week</span></td>
-            <td class='week5'><span class='bold-digit'>2</span><br><span class='small bold'>Week</span></td>
-            <td class='week6'><span class='bold-digit'>3</span><br><span class='small bold'>Week</span></td>
-            <td class='week7'><span class='bold-digit'>4</span><br><span class='small bold'>Week</span></td>
+            <td class='week1 weeks'><span class='bold-digit'>1</span><br><span class='small bold'>Week</span></td>
+            <td class='week2 weeks'><span class='bold-digit'>2</span><br><span class='small bold'>Week</span></td>
+            <td class='week3 weeks'><span class='bold-digit'>3+</span><br><span class='small bold'>Week</span></td>
+            <td class='week4 weeks'><span class='bold-digit'>1</span><br><span class='small bold'>Week</span></td>
+            <td class='week5 weeks'><span class='bold-digit'>2</span><br><span class='small bold'>Week</span></td>
+            <td class='week6 weeks'><span class='bold-digit'>3</span><br><span class='small bold'>Week</span></td>
+            <td class='week7 weeks'><span class='bold-digit'>4</span><br><span class='small bold'>Week</span></td>
             <td class='flush1'><span class="small bold"> Flush</span></td>
-            <td class='week8'><span class='bold-digit'>5</span><br><span class='small bold'>Week</span></td>
-            <td class='week9'><span class='bold-digit'>6</span><br><span class='small bold'>Week</span></td>
-            <td class='week10'><span class='bold-digit'>7</span><br><span class='small bold'>Week</span></td>
-            <td class='flush2'><span class='bold-digit'>8+</span><br><span class='small bold'>Week</span></td>
+            <td class='week8 weeks'><span class='bold-digit'>5</span><br><span class='small bold'>Week</span></td>
+            <td class='week9 weeks'><span class='bold-digit'>6</span><br><span class='small bold'>Week</span></td>
+            <td class='week10 weeks'><span class='bold-digit'>7</span><br><span class='small bold'>Week</span></td>
+            <td class='flush2 weeks'><span class='bold-digit'>8+</span><br><span class='small bold'>Week</span></td>
         </tr>
         
         
@@ -885,7 +886,7 @@ td > table {
             <td class='veg3_total'></td>
             <td class='flow1_total dotted'></td>
             <td class='flow2_total dotted'></td>
-            <td class='flow3_total dotted'><input type="number" class="total-output" disasbled></td>
+            <td class='flow3_total dotted'></td>
             <td class='flow4_total'></td>
             <td class='flow5_total dotted'></td>
             <td class='flow6_total dotted'></td>
